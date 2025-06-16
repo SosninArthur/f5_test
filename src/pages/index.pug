@@ -1,0 +1,514 @@
+doctype html
+html(lang="ru")
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(charset="utf-8")
+    title= "F5 Test"
+    link(href='/styles/style.css' rel="stylesheet" type="text/css")
+    
+
+  body
+    header
+      .middle
+        .logo
+          a(href='' title='На главную')
+            img(src='/img/ipsum_logo.svg')
+        nav
+          a(href='/').current Home
+          a(href='/company') Company 
+          a(href='/blog') Blog
+        .log_menu
+          a(href="/post_job").button.inactive Post job
+          a(href='/login').button Log in
+        .burger.small_logo 
+          span.centered
+    .odd_block
+      .middle
+        .new Stay connected to get upcoming jobs
+        .halfs
+            h1.left_side Find the most <br>exciting jobs in tech
+            p.right_side.description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mirhoncus, pharetra leo et. Sign in or sign up to get started!
+    .odd_block   
+      .middle.search_on_site
+        
+        .search_block 
+          input(type="text" placeholder="Search...").search_field
+          input(type="button" onclick="" value="Search").button     
+      .middle.building
+      .middle.logos
+        span
+          img(src="/img/open_table.svg").centered
+        span
+          img(src="/img/hubspot.svg").centered
+        span
+          img(src="/img/amazon.svg").centered
+        span
+          img(src="/img/shopify.svg").centered
+        span
+          img(src="/img/slack.svg").centered
+        span
+          img(src="/img/dropbox.svg").centered
+    .even_block 
+      .middle
+        .halfs
+          .left_side
+            h2 Explore the latest job openings
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi rhoncus, pharetra leo et, efficitur tortor. Fusce vel convallis magna.
+          .right_side
+            button.button See All Jobs
+      .middle
+        .jobs_snippets
+          .plate.job
+            .plate_top 
+              .small_logo
+                img(src="/img/dribble_logo.svg").centered
+              .company_title 
+                p Dribble 
+                span.date October 25, 2022            
+            .job_details 
+              b Front End Developer
+              .tags 
+                span.tag.royal_blue Marketing
+                span.tag.orange Part Time
+              .offer 
+                .location San Antonio 
+                .salary $ 130-160k
+
+          .plate.job
+            .plate_top 
+              .small_logo
+                img(src="/img/dribble_logo.svg").centered
+              .company_title 
+                p Dribble 
+                span.date October 25, 2022            
+            .job_details 
+              b Backend Developer
+              .tags 
+                span.tag.royal_blue Design
+                span.tag.orange Full Time
+              .offer 
+                .location Dallas
+                .salary $ 50-70k
+
+          .plate.job
+            .plate_top 
+              .small_logo
+                img(src="/img/tokopedia_logo.svg").centered
+              .company_title 
+                p Tokopedia 
+                span.date March 30, 2021            
+            .job_details 
+              b Scrum Master
+              .tags 
+                span.tag.royal_blue Marketing
+                span.tag.orange Part Time
+              .offer 
+                .location San Antonio 
+                .salary $ 130-160k
+
+          .plate.job
+            .plate_top 
+              .small_logo
+                img(src="/img/facebook_logo.svg").centered
+              .company_title 
+                p Facebook 
+                span.date March 30, 2021          
+            .job_details 
+              b Lead Technical Architect
+              .tags 
+                span.tag.royal_blue Technology
+                span.tag.orange Full Time
+              .offer 
+                .location Melbourne
+                .salary $ 210-240k
+
+          .plate.job
+            .plate_top 
+              .small_logo
+                img(src="/img/spotify_logo.svg").centered
+              .company_title 
+                p Spotify 
+                span.date March 30, 2021           
+            .job_details 
+              b Digital Media Strategist
+              .tags 
+                span.tag.royal_blue Buisness
+                span.tag.orange Casual
+              .offer 
+                .location New York
+                .salary $ 50-70k
+
+          .plate.job
+            .plate_top 
+              .small_logo
+                img(src="/img/paypal_logo.svg").centered
+              .company_title 
+                p PayPal 
+                span.date March 30, 2021          
+            .job_details 
+              b System Administrator
+              .tags 
+                span.tag.royal_blue Buisness
+                span.tag.orange Casual
+              .offer 
+                .location Callifornia
+                .salary $ 40-50k
+    .odd_block 
+      .middle
+        h2 Work with exciting companies
+        span.small_note Discover more than 1,600 open positions
+        .arrows.b_r
+          .prev_comps.left_arrow
+            .arrow
+          .right_arrow.next_comps.active
+            .arrow
+      .middle.with_slide.companies
+        .slider_screen.c_stop
+          .slider.comps
+            .plate.slide.s_comps
+              .plate_top
+                .small_logo
+                  img(src="/img/dribble_logo.svg").centered
+                .company_title 
+                  b Dribble
+              .middle_slide 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at dui mollis metus gravida tristique.
+              .bottom_slide 
+                span.tag.green 65 employees
+            
+            .plate.slide.s_comps
+              .plate_top
+                .small_logo
+                  img(src="/img/paypal_logo.svg").centered
+                .company_title
+                  b PayPal
+              .middle_slide 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at dui mollis metus gravida tristique.
+              .bottom_slide 
+                span.tag.green 6000 employees
+
+            .plate.slide.s_comps
+              .plate_top
+                .small_logo
+                  img(src="/img/spotify_logo.svg").centered
+                .company_title
+                  b Spotify
+              .middle_slide 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at dui mollis metus gravida tristique.
+              .bottom_slide
+                span.tag.green 2000 employees
+
+            .plate.slide.s_comps
+              .plate_top
+                .small_logo
+                  img(src="/img/slack_logo.svg").centered
+                .company_title
+                  b Slack
+              .middle_slide 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at dui mollis metus gravida tristique.
+              .bottom_slide 
+                span.tag.green 400 employees
+
+            .plate.slide.s_comps
+              .plate_top
+                .small_logo
+                  img(src="/img/facebook_logo.svg").centered
+                .company_title
+                  b Facebook
+              .middle_slide 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at dui mollis metus gravida tristique.
+              .bottom_slide 
+                span.tag.green 8000 employees
+    .odd_block
+      .middle
+        .halfs
+          .mobile_title WHY CHOOSE US
+          .left_side.partner
+            img(src="/img/partnership.png" alt="Partnership with Glassdoor and LinkedIn")
+            span.small_note Partnership with Glassdoor and LinkedIn
+          .right_side.features
+            h2 Build a custom membership site with locked content.
+            p.note Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi rhoncus, pharetra leo et, efficitur tortor. Fusce vel convallis magna, sit amet pulvinar diam. Sed laoreet feugiat consequat.
+            .feature_points 
+              .feature_point
+                .small_logo
+                  img(src="/img/people.svg").centered
+                .details
+                  p Add a feature point here
+                  span.small_note Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              .feature_point
+                .small_logo
+                  img(src="/img/people.svg").centered
+                .details
+                  p Add a feature point here
+                  span.small_note Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              .feature_point
+                .small_logo
+                  img(src="/img/people.svg").centered
+                .details
+                  p Add a feature point here
+                  span.small_note Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    
+    .even_block 
+      .middle
+        .mobile_title.centered TESTIMONIAL
+        h2.centered See what users say about<br>our job platform 
+        .big_slider.t_stop
+          .arrows.b_l
+            .left_arrow.prev_tslide.active
+              .arrow
+            .right_arrow.next_tslide.active
+              .arrow
+          .slide.t_slide.active
+            .mobile_ava.small_logo
+              img(src="/img/monkey.svg").centered
+            .left_half 
+              p.testimony “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi rhoncus, pharetra leo et, efficitur tortor. Fusce vel convallis magna.”
+              p.sign David Sinclair - Senior Frontend Developer
+            .right_half 
+              img(src="/img/client1.jpg" alt="David Sinclair - Senior Frontend Developer" title="David Sinclair - Senior Frontend Developer")
+          .slide.t_slide
+            .mobile_ava.small_logo
+              img(src="/img/monkey.svg").centered
+            .left_half 
+              p.testimony “Sed a mi rhoncus, pharetra leo et, efficitur tortor. Fusce vel convallis magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ”
+              p.sign Rajesh Patel - Lead Indian Code Developer
+            .right_half 
+              img(src="/img/client2.jpg" alt="Rajesh Patel" title="Rajesh Patel - Lead Indian Code Developer")
+          .slide.t_slide
+            .mobile_ava.small_logo
+              img(src="/img/monkey.svg").centered
+            .left_half 
+              p.testimony “Fusce vel convallis magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi rhoncus, pharetra leo et, efficitur tortor. ”
+              p.sign Clark Kent - Senior Tomato
+            .right_half 
+              img(src="/img/client3.jpg" alt="Clark Kent - Senior Tomato" title="Clark Kent - Senior Tomato")
+    .odd_block 
+      .middle.with_slide.news
+        h2 Get the latest news about jobs!
+        .arrows.t_r
+          .left_arrow.prev_news
+            .arrow
+          .right_arrow.next_news.active
+            .arrow
+        .slider_screen.n_stop
+          .slider.latest_news 
+            .slide.plate.l_news
+              .image
+                img(src="/img/image4.jpg").centered
+              .slide_body
+                .tags 
+                  span.tag.royal_blue Resources
+                p Finding employees in the gig economy
+                .slide_date October 24, 2022
+                .more Read More
+                  span.right_arrow
+                    .arrow
+
+            .slide.plate.l_news
+              .image
+                img(src="/img/image1.jpg").centered
+              .slide_body
+                .tags 
+                  span.tag.royal_blue Education
+                p How to make a great first impression everytime
+                .slide_date October 24, 2022
+                .more Read More
+                  span.right_arrow
+                    .arrow
+
+            .slide.plate.l_news
+              .image
+                img(src="/img/image2.jpg").centered
+              .slide_body
+                .tags 
+                  span.tag.royal_blue Trends
+                p Find out the best paying careers in 2022
+                .slide_date October 24, 2022
+                .more Read More
+                  span.right_arrow
+                    .arrow
+
+            .slide.plate.l_news
+              .image
+                img(src="/img/image3.jpg").centered
+              .slide_body
+                .tags 
+                  span.tag.royal_blue Careers
+                p Ten things to nail your next job Interview
+                .slide_date March 24, 2021
+                .more Read More
+                  span.right_arrow
+                    .arrow
+    .odd_block                
+      .middle.explore
+        .search_icon_fit
+          .search_icon 
+            img(src="/img/search.svg" alt="Search" title="Найти").centered
+        .search_bottom
+          h3 Explore a job now!
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus pharetra cursus. Suspendisse sodales porta leo, ac placerat ex pretium quis.
+        .search_block 
+          input(type="text" placeholder="Search...").search_field
+          input(type="button" onclick="" value="Search").button
+    footer     
+      .odd_block
+        .middle 
+          .footer_logo
+            img(src='/img/ipsum_logo.svg' alt='Ipsum Logo').centered
+          .halfs
+            .left_half 
+              span PAGES 
+              nav 
+                a(href='/') Home
+                a(href='/company') Company 
+                a(href='/blog') Blog
+            .right_half 
+              span Sign up to our newsletter
+              .email_form 
+                input(type="text" name="email" placeholder="Email address")
+                button(type="button" name="send_email").button Get Started
+  script(type="text/javascript"). 
+    const slides_c = document.querySelector('.comps');
+    const sCompCount = document.querySelectorAll(".s_comps").length;
+    const sCompWidth = document.querySelector(".s_comps").offsetWidth;
+    const prevComps = document.querySelector('.prev_comps');
+    const nextComps = document.querySelector('.next_comps');
+    const comp = document.getElementsByClassName('c_stop')[0];
+    let intervalComp;    
+    let curComps = 0;
+    function goToComps(index) {
+      if (index < 0) {
+          index = sCompCount - 1;
+      } else if (index >= sCompCount) {
+          index = 0;
+      }
+      curComps = index;
+      slides_c.style.transform = `translateX(${-index * (sCompWidth + 24)}px)`;
+      if (curComps == sCompCount-1) {
+        nextComps.classList.remove('active')
+      } else {
+        nextComps.classList.add('active')
+      }
+      if (curComps == 0) {
+        prevComps.classList.remove('active')
+      } else {
+        prevComps.classList.add('active')
+      }
+    }
+    
+    // Добавляем обработчик клика для кнопки «Назад»
+    prevComps.addEventListener('click', () => {
+      if (prevComps.classList.contains('active')) {
+        goToComps(curComps - 1);
+      }      
+    });
+    nextComps.addEventListener('click', () => {
+      if (nextComps.classList.contains('active')) {
+        goToComps(curComps + 1);
+      }      
+    });
+    
+    // Запуск интервала для автоматической прокрутки
+    function startComp(){
+      intervalComp = setInterval(function () {goToComps(curComps+1);}, 2500);
+    }
+    startComp()
+    // При ховере поставить на паузу
+    comp.addEventListener('mouseover', function() {
+      clearInterval(intervalComp);
+    });
+    // При анховере снять паузу.
+    comp.addEventListener('mouseout', function() {
+      startComp();
+    });
+  script(type="text/javascript"). 
+    //Слайдер для блока с новостями
+    const slides_n = document.querySelector('.latest_news');
+    const sNewsCount = document.querySelectorAll(".l_news").length;
+    const sNewsWidth = document.querySelector(".l_news").offsetWidth;
+    const prevNews = document.querySelector('.prev_news');
+    const nextNews = document.querySelector('.next_news');
+    const news = document.getElementsByClassName('n_stop')[0];
+    let intervalNews;
+    let curNews = 0;
+    function goToNews(index) {
+      if (index < 0) {
+          index = sNewsCount - 1;
+      } else if (index >= sNewsCount) {
+          index = 0;
+      }
+      curNews = index;
+      slides_n.style.transform = `translateX(${-index * (sNewsWidth + 24)}px)`;
+      if (curNews == sNewsCount-1) {
+        nextNews.classList.remove('active')
+      } else {
+        nextNews.classList.add('active')
+      }
+      if (curNews == 0) {
+        prevNews.classList.remove('active')
+      } else {
+        prevNews.classList.add('active')
+      }
+    }
+
+    prevNews.addEventListener('click', () => {
+      if (prevNews.classList.contains('active')) {
+        goToNews(curNews - 1);
+      }      
+    });
+    nextNews.addEventListener('click', () => {
+      if (nextNews.classList.contains('active')) {        
+        goToNews(curNews + 1);
+      }      
+    });  
+
+
+    function startNews(){
+      intervalNews = setInterval(function () {goToNews(curNews+1);}, 2500);
+    }
+    startNews()
+    news.addEventListener('mouseover', function() {
+      clearInterval(intervalNews);
+    });
+    news.addEventListener('mouseout', function() {
+      startNews();
+    });
+
+  script(type="text/javascript").
+    //Слайдер для отзывов клиентов
+    const tesSlides = document.querySelectorAll(".t_slide");
+    const tSlideCount = tesSlides.length;
+    const prevTSlide = document.querySelector('.prev_tslide');
+    const nextTSlide = document.querySelector('.next_tslide');
+    const tSlide = document.getElementsByClassName('t_stop')[0];
+    let intervalTSlide;    
+    let curTSlide = 0;
+    function goToSlide(index) {
+      if (index < 0) {
+          index = tSlideCount - 1;
+      } else if (index >= tSlideCount) {
+          index = 0;
+      }
+      tesSlides[index].classList.add('active')
+      tesSlides[curTSlide].classList.remove('active')
+      curTSlide = index;
+    }
+
+    prevTSlide.addEventListener('click', () => {
+        goToSlide(curTSlide - 1);
+    });
+    nextTSlide.addEventListener('click', () => {
+        goToSlide(curTSlide + 1);
+    }); 
+    // Включение автоматической прокрутки и паузы на ховер
+    function startTSlide(){
+      intervalTSlide = setInterval(function () {goToSlide(curTSlide+1);}, 1500);
+    }
+    startTSlide()
+    tSlide.addEventListener('mouseover', function() {
+      clearInterval(intervalTSlide);
+    });
+    tSlide.addEventListener('mouseout', function() {
+      startTSlide();
+    });

@@ -1,0 +1,33 @@
+{
+  "name": "test_site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sosnin A.",
+  "license": "ISC",
+  "description": "\"Test case for F5\"",
+  "dependencies": {
+    "-": "^0.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.0",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-cli": "^3.1.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-include": "^2.4.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "pug": "^3.0.3",
+    "sass": "^1.89.2",
+    "vinyl-fs": "^4.0.2"
+  }
+}
